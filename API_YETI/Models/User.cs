@@ -8,6 +8,6 @@
         public string Email { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
         public string Role {  get; set; } = "User"; // padrão definido como usuário
-        public string DataCreationAccount { get; set; } = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss"); // puxa a data atual
+        public DateTime DataCreationAccount { get; set; } = DateTime.UtcNow; // puxa a data atual
     }
 }
