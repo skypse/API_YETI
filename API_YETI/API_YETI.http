@@ -1,0 +1,6 @@
+@API_YETI_HostAddress = http://localhost:5270
+
+GET {{API_YETI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
