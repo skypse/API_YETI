@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignora o arquivo de chave secreta
+SecretKey.txt
+
+/API_YETI/Secrets/jwt_secret.txt
