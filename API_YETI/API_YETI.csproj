@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Secrets\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 
